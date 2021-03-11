@@ -1,3 +1,5 @@
+using Amazon.S3;
+using AmazonS3DepolamaApi.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -27,6 +29,8 @@ namespace AmazonS3DepolamaApi
         {
 
             services.AddControllers();
+            services.AddSingleton<IS3Service, S3Service>();
+            services.AddAWSService<IAmazonS3>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AmazonS3DepolamaApi", Version = "v1" });

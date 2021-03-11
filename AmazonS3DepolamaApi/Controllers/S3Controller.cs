@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AmazonS3DepolamaApi.Services;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +18,9 @@ namespace AmazonS3DepolamaApi.Controllers
         }
 
         [HttpPost("{kovaadi}")]
-        public async Task<IActionResult> YeniKova([FromRoute] string kovaadi)
+        public async Task<IActionResult> YeniKova([FromRoute] string kovaAdi)
         {
-            var response = await _service.CreateBucketAsync(kovaadi);
+            var response = await _service.CreateBucketAsync(kovaAdi);
 
             return Ok(response);
         }
