@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonS3DepolamaApi", "AmazonS3DepolamaApi\AmazonS3DepolamaApi.csproj", "{F17D35F4-CEB5-4F74-A634-D0EB5786ECF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17D35F4-CEB5-4F74-A634-D0EB5786ECF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17D35F4-CEB5-4F74-A634-D0EB5786ECF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17D35F4-CEB5-4F74-A634-D0EB5786ECF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17D35F4-CEB5-4F74-A634-D0EB5786ECF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BE09103-A551-4095-B9D6-7189BD5D6FBA}
+	EndGlobalSection
+EndGlobal
